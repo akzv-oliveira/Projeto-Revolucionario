@@ -1,0 +1,22 @@
+/* Classe CSS */
+.texto-p{
+    color:purple;
+    /* Padrão é de 16px */
+    font-size: 20px;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    /* Uso Externo do CSS no HTML */
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.texto-p-ez{
+    color:red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botao-verde{
+    color:green
+}
