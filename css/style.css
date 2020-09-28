@@ -1,22 +1,83 @@
 /* Classe CSS */
-.texto-p{
+/* .texto-p{
     color:purple;
-    /* Padrão é de 16px */
+        Padrão é de 16px
     font-size: 20px;
-    /*font-family: 'Times New Roman', Times, serif;*/
-    /* Uso Externo do CSS no HTML */
-}
+    font-family: 'Times New Roman', Times, serif;
+     Uso Externo do CSS no HTML 
+} */
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
 }
 
-.texto-p-ez{
+.header { 
+        /* O "." É UM FATOR FUNDAMENTAL PARA O CSS RECONHECER A CLASS DO HTML */
+        /* O "#" É PARA RECONHECER O UM ID */
+    background-color: rgb(255, 208, 0);
+    height: 90px;
+    padding-top: 30px;
+    border-bottom: black solid 5px;
+}
+
+.header .nav .current a,
+.header spam{
+    color:orangered
+}
+
+.header .nav .current a {
+    color:orangered
+}
+
+.title-header h1{
+    margin: 0;
+}
+
+.container {
+    width: 80%; /* Largura do Elemento */ /* CTRL + ; - ATALHO COMENTÁRIO */
+    background-color: 0;
+    margin:auto;
+    height: 50px;
+
+
+}
+
+.title-header h1,
+.nav ul{
+    float: left;
+    color:black;
+    padding: 10px;
+
+}
+
+.nav {
+    float: right;
+}
+
+.nav a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase /* Transforma o texto em CAPSLOCK */
+}
+
+.nav li{
+    display: inline-block; /* Deixa o testo na mesma linha porém um ao lado do outro */
+    list-style-type: none;  
+    padding: 0 20px 0 20px;
+}
+
+
+
+/* .texto-p-ez{ 
     color:red;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-}
+} */
 
-.botao-verde{
+/* .botao-verde{
     color:green
-}
+} */
+
+
