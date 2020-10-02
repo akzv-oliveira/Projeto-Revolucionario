@@ -7,6 +7,12 @@
      Uso Externo do CSS no HTML 
 } */
 
+/*GLOBAL*/
+/* * {
+
+}
+*/
+
 body {
     font-family:Arial, Helvetica, sans-serif; 
     margin: 0;
@@ -16,19 +22,19 @@ body {
 .header { 
         /* O "." É UM FATOR FUNDAMENTAL PARA O CSS RECONHECER A CLASS DO HTML */
         /* O "#" É PARA RECONHECER O UM ID */
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(58, 52, 82);
     height: 90px;
     padding-top: 30px;
-    border-bottom: black solid 5px;
+    border-bottom: blueviolet solid 5px;
 }
 
 .header .nav .current a,
 .header spam{
-    color:orangered
+    color:white;
 }
 
 .header .nav .current a {
-    color:orangered
+    color:white;
 }
 
 .title-header h1{
@@ -47,7 +53,7 @@ body {
 .title-header h1,
 .nav ul{
     float: left;
-    color:black;
+    color:rgb(210, 162, 231);
     padding: 10px;
 
 }
@@ -58,7 +64,7 @@ body {
 
 .nav a{
     text-decoration: none;
-    color:black;
+    color:rgb(210, 162, 231);
     text-transform: uppercase /* Transforma o texto em CAPSLOCK */
 }
 
@@ -68,6 +74,58 @@ body {
     padding: 0 20px 0 20px;
 }
 
+/* SHOWCASE */
+.showcase {
+    background-image: url(../img/team.png);
+    background-size: cover;
+    color:#ffffff;
+    text-align:center;
+    min-height: 400px;
+}
+
+.showcase h1{
+    margin: 0;
+    font-size: 55px;
+    padding-top: 100px;
+}
+
+.showcase p{
+    margin: 0;
+    font-size: 22px;
+    
+}
+
+/* NEWS */
+.news {
+    background-color:rgb(58, 52, 82);
+    color:rgb(210, 162, 231);
+    height: 100px;
+}
+
+.news h1 {
+    margin: 0;
+    float: left;
+    padding-top: 30px;
+}
+
+.news form{
+    float: right;
+    padding-top: 34px;
+}
+
+.news input{
+    height:25px;
+    width: 225px;
+}
+
+.btn {
+    background-color:white;
+    color:rgb(58, 52, 82);
+    border:none;
+    width: 60px; 
+    height:30px;
+
+}
 
 
 /* .texto-p-ez{ 
