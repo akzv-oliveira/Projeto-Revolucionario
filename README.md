@@ -1,2 +1,2 @@
-# site-institucional-ads-b
-Repositório de Front-end do Site Institucional
+# Site Institucional - Projeto Revolucinário
+Repositório de Front e Back-end do Site Institucional
