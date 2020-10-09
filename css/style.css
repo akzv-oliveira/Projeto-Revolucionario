@@ -1,4 +1,6 @@
 /* Classe CSS */
+
+
 /* .texto-p{
     color:purple;
         Padrão é de 16px
@@ -7,21 +9,24 @@
      Uso Externo do CSS no HTML 
 } */
 
+
 /*GLOBAL*/
+
+
 /* * {
 
 }
 */
 
 body {
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.header { 
-        /* O "." É UM FATOR FUNDAMENTAL PARA O CSS RECONHECER A CLASS DO HTML */
-        /* O "#" É PARA RECONHECER O UM ID */
+.header {
+    /* O "." É UM FATOR FUNDAMENTAL PARA O CSS RECONHECER A CLASS DO HTML */
+    /* O "#" É PARA RECONHECER O UM ID */
     background-color: rgb(58, 52, 82);
     height: 90px;
     padding-top: 30px;
@@ -29,76 +34,79 @@ body {
 }
 
 .header .nav .current a,
-.header spam{
-    color:white;
+.header spam {
+    color: white;
 }
 
 .header .nav .current a {
-    color:white;
+    color: white;
 }
 
-.title-header h1{
+.title-header h1 {
     margin: 0;
 }
 
 .container {
-    width: 80%; /* Largura do Elemento */ /* CTRL + ; - ATALHO COMENTÁRIO */
+    width: 80%;
+    /* Largura do Elemento */
+    /* CTRL + ; - ATALHO COMENTÁRIO */
     background-color: 0;
-    margin:auto;
+    margin: auto;
     height: 50px;
-
-
 }
 
 .title-header h1,
-.nav ul{
+.nav ul {
     float: left;
-    color:rgb(210, 162, 231);
+    color: rgb(210, 162, 231);
     padding: 10px;
-
 }
 
 .nav {
     float: right;
 }
 
-.nav a{
+.nav a {
     text-decoration: none;
-    color:rgb(210, 162, 231);
-    text-transform: uppercase /* Transforma o texto em CAPSLOCK */
+    color: rgb(210, 162, 231);
+    text-transform: uppercase/* Transforma o texto em CAPSLOCK */
 }
 
-.nav li{
-    display: inline-block; /* Deixa o testo na mesma linha porém um ao lado do outro */
-    list-style-type: none;  
+.nav li {
+    display: inline-block;
+    /* Deixa o testo na mesma linha porém um ao lado do outro */
+    list-style-type: none;
     padding: 0 20px 0 20px;
 }
 
+
 /* SHOWCASE */
+
 .showcase {
     background-image: url(../img/team.png);
     background-size: cover;
-    color:#ffffff;
-    text-align:center;
+    color: #ffffff;
+    text-align: center;
     min-height: 400px;
 }
 
-.showcase h1{
+.showcase h1 {
     margin: 0;
     font-size: 55px;
     padding-top: 100px;
 }
 
-.showcase p{
+.showcase p {
     margin: 0;
     font-size: 22px;
-    
 }
 
+
 /* NEWS */
+
 .news {
-    background-color:rgb(58, 52, 82);
-    color:rgb(210, 162, 231);
+    background-color: rgb(58, 52, 82);
+    color: rgb(210, 162, 231);
     height: 100px;
 }
 
@@ -108,23 +116,63 @@ body {
     padding-top: 30px;
 }
 
-.news form{
+.news form {
     float: right;
     padding-top: 34px;
 }
 
-.news input{
-    height:25px;
+.news input {
+    height: 25px;
     width: 225px;
 }
 
 .btn {
-    background-color:white;
-    color:rgb(58, 52, 82);
-    border:none;
-    width: 60px; 
-    height:30px;
+    background-color: white;
+    color: rgb(58, 52, 82);
+    border: none;
+    width: 60px;
+    height: 30px;
+}
 
+
+/* Início VALORES */
+
+.box {
+    /* height:300px */
+    overflow: auto;
+    /* Atribui o espaço necessário para ser compatível com os elementos flutuantes */
+}
+
+.box .box-item {
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 300px;
+    float: left;
+    margin: 40px 20px 40px 35px;
+    /* Atribuição em Sentido Horário - margin top, right, bottom, left */
+}
+
+.box img {
+    height: 100px;
+}
+
+
+/* Fim VALORES */
+
+
+/* Início FOOTER */
+
+.footer {
+    background-color: #180e14;
+    height: 100px;
+}
+
+.footer h4 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 40px;
+    font-weight:
 }
 
 
@@ -134,8 +182,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 } */
 
+
 /* .botao-verde{
     color:green
 } */
-
-
